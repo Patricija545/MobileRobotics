@@ -1,8 +1,8 @@
-## MOBILE ROBOTICS - LOCALIZATION
+## Mobile robotics - LOCALIZATION
 
-### PROGRAM DESCRIPTION
+### Program description
 Subscribe to topic "/odom"
 Get coordinates of robot position
 
-### HOW TO RUN PROGRAM
+### How to run program
 Type "roslaunch zadaca1 zadaca1.launch" in terminal
