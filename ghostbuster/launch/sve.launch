@@ -1,0 +1,13 @@
+<launch>
+  <include file="$(find ghostbuster)/launch/gazebo_rviz.launch" />
+ 
+  <include file="$(find ghostbuster)/launch/lokalizacija.launch" />
+  
+  <include file="$(find ghostbuster)/launch/navigacija.launch" />
+  
+  <node pkg="ghostbuster" type="ghost_logic.py" name="ghost_logic" output="screen" required="true" />
+
+  <node name="ghostbuster" pkg="ghostbuster"  type="ghostbuster"  output="screen"/>
+
+
+</launch>
